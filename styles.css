@@ -1,0 +1,70 @@
+body {
+  background: green;
+}
+p {
+  color: red;
+}
+
+div.card {
+  border: 20px solid gray;
+  margin: 20px auto ;
+  width: 300px;
+  padding: 10px;
+}
+
+
+div.card > img {
+  width: 100px;
+}
+
+.card > button {
+  font-size: 36px;
+}
+div.llol{
+
+
+}
+
+nav {
+  background: black;
+
+}
+
+nav a{
+text-decoration: none;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+nav > ul {
+display: flex;
+justify-content: space-around;
+padding: 10px 0;
+list-style-type: none;
+}
+table, td, th {
+border: 1px solid red;
+text-align: center;
+border-collapse: collapse;
+}
+
+.center {
+  text-align: center;
+}
+
+main p {
+font-size: 20px;
+}
+footer p {
+font-size: 20px;
+}
+
+
+
+.bordered-form  {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  margin: 1px;
+}
